@@ -4,3 +4,4 @@
 - Check status: `git status`
 - Add file: `git add <file>`
 - Commit file: `git commit -m "<message>" <file>`
+- 
