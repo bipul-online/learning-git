@@ -1,5 +1,10 @@
 # Learning Git
 
+## Workflow
+- Repository > Committed
+- Index (stage area) > Staged
+- Working tree > Modified
+
 ## Local
 - Create repository: `git init`
 - Check status: `git status`
