@@ -1,5 +1,8 @@
 # Learning Git
 
+## Utility
+- Check logs `git log`
+
 ## Workflow
 - Repository > Committed
 - Index (stage area) > Staged
