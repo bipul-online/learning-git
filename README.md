@@ -38,3 +38,4 @@ master master`
 - Stash staged files and working tree changes `git stash -u`
 - Get stashed changes back `git stash pop`
 - Reset local commit with remote commit `git reset --hard origin/master`
+- Revert back to a version `git revert <commit-hash>`
