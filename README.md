@@ -35,3 +35,5 @@ master master`
 - Remove unstaged tracked files `git checkout .`
 - Restore staged files to working tree `git restore --staged .`
 - Remove staged files and working tree changes `git reset --hard`
+- Stash staged files and working tree changes `git stash -u`
+- Get stashed changes back `git stash pop`
