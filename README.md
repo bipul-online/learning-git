@@ -31,5 +31,7 @@ master master`
 - Merge branch `git merge <branch-to-merge>`
 
 ## Revert back
-- Cleanup untracked changes `git clean -f`
-- Restore staged files `git restore --staged .`
+- Remove untracked files `git clean -f`
+- Remove unstaged tracked files `git checkout .`
+- Restore staged files to working tree `git restore --staged .`
+- Remove staged files and working tree changes `git reset --hard`
