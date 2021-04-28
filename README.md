@@ -28,4 +28,8 @@ master master`
 ## Branch
 - Create branch `git branch <branch-name>`
 - Switch branch `git checkout <branch-name>`
+- Merge branch `git merge <branch-to-merge>`
+
+## Revert back
+- Cleanup untracked changes `git clean -f`
 - 
