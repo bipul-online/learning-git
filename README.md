@@ -32,4 +32,4 @@ master master`
 
 ## Revert back
 - Cleanup untracked changes `git clean -f`
-- 
+- Restore staged files `git restore --staged .`
