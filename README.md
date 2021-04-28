@@ -1,12 +1,12 @@
 # Learning Git
 
-## Utility
-- Check logs `git log`
-
 ## Workflow
-- Repository > Committed
-- Index (stage area) > Staged
-- Working tree > Modified
+- Working tree > Locally modified changes
+- Index (stage area) > Staged changes
+- Repository > Committed changes
+
+## Utility
+- Show commit history `git log`
 
 ## Local
 - Create repository: `git init`
@@ -40,3 +40,4 @@ master master`
 - Reset local commit with remote commit `git reset --hard origin/master`
 - Revert back to a version `git revert <commit-hash>`
 - Hard reset to a version `git reset --hard <commit-hash>`
+
