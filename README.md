@@ -1,14 +1,14 @@
 # Learning Git
 
-## Workflow
+## Git Workflow
 - Working tree > Locally modified changes
 - Index (stage area) > Staged changes
 - Repository > Committed changes
 
-## Utility
+## Utility Commands
 - Show commit history `git log`
 
-## Local
+## Working with Local
 - Create repository: `git init`
 - Check status: `git status`
 - Add file: `git add <file>`
@@ -16,7 +16,7 @@
 - Restore file: `git restore <file>`
 - Check diff: `git diff`
 
-## Remote
+## Working with Remote
 - Add remote `git remote add origin https://github.com/bkumar2/learning-git.git`
 - Verify remote URL `git remote -v`
 - Fetch remote `git fetch`
@@ -25,12 +25,12 @@
 master master`
 - Merge upstream `git merge`
 
-## Branch
+## Using Branches
 - Create branch `git branch <branch-name>`
 - Switch branch `git checkout <branch-name>`
 - Merge branch `git merge <branch-to-merge>`
 
-## Revert back
+## Reverting Changes
 - Remove untracked files `git clean -f`
 - Remove unstaged tracked files `git checkout .`
 - Restore staged files to working tree `git restore --staged .`
@@ -40,4 +40,6 @@ master master`
 - Reset local commit with remote commit `git reset --hard origin/master`
 - Revert back to a version `git revert <commit-hash>`
 - Hard reset to a version `git reset --hard <commit-hash>`
+
+## Working with Fork
 
