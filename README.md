@@ -7,6 +7,7 @@
 
 ## Utility Commands
 - Show commit history `git log`
+- View all branches `git branch -va`
 
 ## Working with Local
 - Create repository: `git init`
@@ -43,5 +44,6 @@ master master`
 
 ## Working with Fork
 - Click fork on github
-- Clone repository `git clone <url>`
+- Clone repository `git clone <fork-url>`
+- Add original repo as upstream `git remote add upstream <original-repo-url>`
 - 
