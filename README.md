@@ -48,5 +48,7 @@ master master`
 - Click fork on github
 - Clone repository `git clone <fork-url>`
 - Add original repo as upstream `git remote add upstream <original-repo-url>`
+- Get all changes from upstream `git fetch upstream`
+- Merge upstream changes `git merge upstream/master`
 ### Reviewer
 - 
