@@ -42,4 +42,6 @@ master master`
 - Hard reset to a version `git reset --hard <commit-hash>`
 
 ## Working with Fork
-
+- Click fork on github
+- Clone repository `git clone <url>`
+- 
