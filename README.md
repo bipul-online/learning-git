@@ -30,6 +30,7 @@ master master`
 - Create branch `git branch <branch-name>`
 - Switch branch `git checkout <branch-name>`
 - Merge branch `git merge <branch-to-merge>`
+- Rebase branch `git rebase master`
 
 ## Reverting Changes
 - Remove untracked files `git clean -f`
